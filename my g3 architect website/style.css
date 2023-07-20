@@ -92,3 +92,43 @@ a{
         flex-direction: column;
     }
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.team-feature{
+    padding: 0 70px;
+}
+.team-feature-title{
+    font-size: 45px;
+}
+span{
+    color: #727272;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ab{
+    color: #131313;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cd{
+    color: #FF900E;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
